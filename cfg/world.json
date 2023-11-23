@@ -1,0 +1,15 @@
+{
+  "generator": [
+    {"octaves": 1},
+    {"octaves": 2},
+    {"octaves": 4}
+  ],
+  "w": 5,
+  "h": 5,
+  "cw": 16,
+  "ch": 16,
+  "textures": [
+    "assets/textures/ground/ground.png"
+  ],
+  "block-size": 64
+}

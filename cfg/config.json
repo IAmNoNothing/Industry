@@ -1,0 +1,8 @@
+{
+  "fullscreen": true,
+  "fps": -1,
+  "speed": 25,
+  "max-speed": 400,
+  "show-fps": true,
+  "slowdown": 45
+}
