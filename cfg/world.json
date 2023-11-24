@@ -1,15 +1,20 @@
 {
   "generator": [
-    {"octaves": 1},
-    {"octaves": 2},
-    {"octaves": 4}
+    {"octaves": 1}
   ],
-  "w": 5,
-  "h": 5,
-  "cw": 16,
-  "ch": 16,
+  "w": 10,
+  "h": 10,
+  "cw": 8,
+  "ch": 8,
   "textures": [
-    "assets/textures/ground/ground.png"
+    "assets/textures/ground/ground.png",
+    "assets/textures/ground/water.png"
   ],
-  "block-size": 64
+  "block-size": 64,
+  "info-panel-rect": [10, 10, 160, 120],
+  "info-panel-props": {
+    "inner-color": [160, 180, 100],
+    "outer-color": [50, 0, 0],
+    "width": 3
+  }
 }

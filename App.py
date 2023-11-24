@@ -1,6 +1,8 @@
 from engine.Config import ConfigManager
 import pygame as pg
 from loguru import logger
+
+from engine.Interface import InterfaceManager
 from game.Camera import Camera
 from game.world.World import World
 
@@ -40,10 +42,13 @@ class App:
             fps = self.font.render(f'{round(self.clock.get_fps(), 1)}', True, (255, 255, 255))
             self.screen.blit(fps, (0, 0))
         self.camera.move()
+        InterfaceManager.draw()
 
     def _update(self):
         pg.display.flip()
+        self.world.update()
         self.delta = self.clock.tick(self.cfg['fps']) / 1000
+        InterfaceManager.update()
 
     def _check_events(self):
         for event in pg.event.get():

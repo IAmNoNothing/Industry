@@ -4,5 +4,6 @@
   "speed": 25,
   "max-speed": 400,
   "show-fps": true,
-  "slowdown": 45
+  "slowdown": 45,
+  "white-black": false
 }

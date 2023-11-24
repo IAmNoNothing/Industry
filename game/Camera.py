@@ -1,5 +1,4 @@
 import math
-
 from engine.vec import Vec2
 import pygame as pg
 from loguru import logger
